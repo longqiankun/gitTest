@@ -3,13 +3,20 @@ package com.shiqichuban.gittest;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.airbnb.lottie.LottieAnimationView;
+
 public class MainActivity extends AppCompatActivity {
 
+    LottieAnimationView lav;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        lav=findViewById(R.id.lottieAnimation);
+        lav.setImageAssetsFolder("splash");
+        lav.setAnimation("splash.json");
+        lav.playAnimation();
+        lav.loop(true);
 
         //添加2
     }
