@@ -4,6 +4,7 @@
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+<<<<<<< HEAD
   </component>
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
@@ -41,6 +42,10 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+=======
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
+>>>>>>> a0fabb22f210608607a7cdbea5cd1331c6ef77fb
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
