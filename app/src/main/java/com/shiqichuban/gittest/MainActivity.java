@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         lav.setImageAssetsFolder("splash");
         lav.setAnimation("splash.json");
         lav.playAnimation();
-        lav.loop(true);
+        lav.loop(true);//ss
 
         //添加2
         //添加3
