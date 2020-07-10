@@ -17,11 +17,14 @@ public class MainActivity extends AppCompatActivity {
         lav.setImageAssetsFolder("splash");
         lav.setAnimation("splash.json");
         lav.playAnimation();
-        lav.loop(true);
+        lav.loop(true);//ss
 
         //添加2
         //添加3
         //添加4
         //branch1
+        //branch3
+        //branch34
+        //5
     }
 }
